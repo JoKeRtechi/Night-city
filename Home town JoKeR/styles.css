@@ -1,0 +1,94 @@
+@font-face {
+    font-family: myfont;
+    src: url(fonts/night.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}    
+
+.top{
+    height: 850px;
+    width: auto;
+    background: url(img/night-city-anime-scenery-buildings-uhdpaper.com-4K-6.2586.jpg);
+    background-size: cover;
+}
+
+#heading{
+    margin-bottom: 20px;
+}
+
+.abt-night-city{
+    color: #FFFF00 ;
+    text-shadow: 0 0 1px black;
+    font-family: myfont;
+    font-size: x-large;
+    letter-spacing: 2px;
+    padding-top: 350px;
+    padding-left: 100px;
+}
+
+.about{
+    height: 850px;
+    background-image: url(img/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFF00;
+    text-shadow: 0 0 1000px black;
+}
+
+.activities{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.abt-pop{
+    height: 700px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 50px 0 0 0 ;
+    font-family: serif;
+}
+
+.interstate{
+    border: 1px solid #FFFF00;
+    border-radius: 10px;
+}
+
+
+.charter{
+    border: 1px solid #FFFF00;
+    border-radius: 10px;
+}
+
+
+.jig{
+    border: 1px solid #FFFF00;
+    border-radius: 10px;
+}
+
+.footer{
+    height: 200px;
+    background: black;
+    color: #FFFF00;
+}
+
+.sth{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    font-size: large;
+    font-style: italic;
+}
+
+a{
+    color: #FFFF00;
+}
+
+a:hover{
+    color: whitesmoke;
+}
+
